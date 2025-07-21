@@ -32,3 +32,9 @@ int main()
 	delete[] animals;
 	return (0);
 }
+
+// Animal a;        // Compiler error!
+// Animal* ptr = new Animal(); // Also invalid!
+
+// Animal* ptr = new Dog();    // Works!
+// ptr->makeSound();           // Also
